@@ -1,0 +1,29 @@
+.boby{
+     margin: 0;
+     padding: 0;
+
+}
+topbar {
+    border: 1px solid black;
+    height: 40px;
+}
+.container {
+    border:1px solid black;
+    margin: 0 auto;
+    width:1226px;
+}
+.container::before,.container::after{
+    content: "";
+    display: table;
+
+}
+.container::after{
+          clear: both;              
+}
+.topbar-nav{
+    float: left;
+}
+.topbar-info , .topbar-cart{
+    float: right;
+
+}
